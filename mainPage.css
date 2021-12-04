@@ -1,0 +1,109 @@
+/*navbar*/
+.body, html {
+    display: flex;
+    background-color: black;
+    
+}
+.background {
+    background-color: black;
+    display: flex;
+    height: 130vh;
+}
+.navbar {
+    width: 14%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    position: sticky;
+}
+
+hr {
+    background-color: gray;
+}
+.homeName {
+    margin: 5px ;
+    padding: 10px 0px;
+}
+.name, .login {
+    display: flex;
+}
+.loginText {
+    margin: 7px;
+}
+
+/*content*/
+.content {
+    flex-direction: column;
+}
+.mainContent {
+    margin: 50px 70px;
+    display: flex;
+    width: 995px;
+    height: 330px;
+}
+.mainImage {
+    width: 465px; 
+    height: 330px;
+}
+.introduceImage {
+    background-color: #271C23;
+    width: 530px;
+    height: 240px;
+    color: white;
+    padding: 45px 50px; 
+    display: flex;
+    flex-direction:column;
+}
+#genre {
+    border-radius: 40px;
+    background-color: #7E00E4;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    padding: 2px 2px;
+}
+.articleHeader {
+    font-size: 35px;
+    font-weight: 600;
+    width: 530px;
+    height: 100px;
+    margin:10px;
+}
+.articleBodyPreview {
+    color: #ABB7BE;
+}
+.articleDate {
+    color: #ABB7BE;
+    margin: 0px 0px;
+}
+.recommend {
+    margin: 0px 70px 50px 70px; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.recommendImage, .theme, .vibe {
+    width: 13vw;
+    height: 30vh;
+    margin: 0px 10px 5px 0px;
+}
+.recommendSubject {
+    display: flex;
+}
+.chevron {
+    margin: 25px 5px;
+}
+.recommendTheme, .vibeDiv {
+    display: flex;
+    flex-direction: row;
+}
+.link {
+    color: white;
+}
+.theme {
+    margin: 0px 10px 2px 0px
+}
+a {
+    text-decoration-line: none;
+    color: white;
+}
